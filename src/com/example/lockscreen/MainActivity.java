@@ -34,7 +34,7 @@ public class MainActivity extends Activity
 	{
 		Intent intent = new Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN);
 		intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, componentName);
-		intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION, "Ò»¼üËøÆÁ");
+		intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION, "ä¸€é”®é”å±");
 		startActivity(intent);
 	}
 }
